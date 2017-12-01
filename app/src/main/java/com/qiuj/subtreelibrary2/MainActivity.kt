@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val listView = findViewById(R.id.test1) as ListView
         arr = ArrayList()
+        //test
         for (i in 0..49) {
             arr!!.add(i.toString() + " ====")
         }
